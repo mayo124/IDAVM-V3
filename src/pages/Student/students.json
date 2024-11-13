@@ -1,0 +1,57 @@
+{
+  "2013JU52743": {
+    "Class": "IXA",
+    "Dob": "21/09/2009",
+    "Lunch": true,
+    "Medical": {
+      "Blood": "B+",
+      "Height": "5\"9",
+      "Sex": "female"
+    },
+    "Name": "ravina tagore"
+  },
+  "2014BE04306": {
+    "Class": "XB",
+    "Contact Details": {
+      "Father Mobile": 9920802789,
+      "Mother Mobile": 9930514109,
+      "fatherEmail": "Hiteshdhankani@gmail.com",
+      "motherEmail": "Vaishalidhanknai@gmail.com"
+    },
+    "Dob": "14/01/2009",
+    "Medical": {
+      "Alergies": {
+        "Dust": "",
+        "Penicilin": ""
+      },
+      "Blood": "O+",
+      "Height": "5\"11",
+      "Sex": "male"
+    },
+    "Name": "mihir dhankani",
+    "Permisions": {
+      "artRoom": "",
+      "compLab": 103009112024,
+      "elibrary ": ""
+    },
+    "cashBalance": 100,
+    "lunch": {
+      "-NcOOpH4I2BPWt9KReHH": "",
+      "-NcOP7ROIHB1-p4ZzXMa": 1,
+      "-NcOPr62uxibNSNWDZ7X": "",
+      "-NcOPsxO18A2vEx7A3Dd": ""
+    },
+    "lunchFacility": true
+  },
+  "2015BE47149": {
+    "Class": "VIIB",
+    "Dob": "13/05/2011",
+    "Medical": {
+      "Blood": "0-",
+      "Height": "4\"11",
+      "Sex": "male"
+    },
+    "Name": "amitabh mishra",
+    "lunch": true
+  }
+}
