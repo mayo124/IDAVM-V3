@@ -9,33 +9,38 @@ const AddUser = () => {
   const [errorMessage, setErrorMessage] = useState(null);
   const navigate = useNavigate();
 
-  const initialValues = {
+   const initialValues = {
     grNumber: "",
+    firstName: "",
+    middleName: "",
+    lastName: "",
+    grade: "",
     class: "",
-    name: "",
-    dob: "",
     contactDetails: {
-      fatherMobile: "",
+      motherEmail: "",
       motherMobile: "",
       fatherEmail: "",
-      motherEmail: "",
+      fatherMobile: "",
     },
     medical: {
-      allergies: {
-        dust: false,
-        penicillin: false,
-      },
-      blood: "",
+      bloodGroup: "",
       height: "",
-      sex: "",
+      allergies: "",
+      medicalConsent: false,
+    },
+    lunchPreferences: {
+      lunchRequired: false,
+      dietaryPreference: "Non-Jain",
     },
     permissions: {
       artRoom: false,
       compLab: false,
       eLibrary: false,
     },
-    cashBalance: "",
-    lunchFacility: false,
+    hipProgram: {
+      dayOfParticipation: "Monday",
+      duration: "",
+    },
   };
 
   const handleSubmit = async (values, { resetForm }) => {
