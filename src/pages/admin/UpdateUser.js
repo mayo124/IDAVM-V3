@@ -211,7 +211,7 @@ const AddUser = () => {
               <div>
                 <label className="block text-gray-600">Day of Participation (HIP Program)</label>
                 <Field as="select" name="hipProgram.dayOfParticipation" className="w-full p-2 border border-gray-300 rounded focus:border-blue-500 focus:outline-none">
-                  <option value="Monday">Monday</option>
+                  <option value="Monday">Mon</option>
                   {/* Add more days if needed */}
                 </Field>
               </div>
